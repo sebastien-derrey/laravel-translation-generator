@@ -1,0 +1,31 @@
+{
+    "name": "sdlab/laravel-translation-files-generator",
+    "description": "Create translation json files containing all project needed translations",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastien Derrey",
+            "email": "me@sebastienderrey.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "^6.0|^7.0",
+        "illuminate/console": "^6.0|^7.0",
+        "ext-json": "*"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sdlab\\TranslationGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sdlab\\TranslationGenerator\\ServiceProvider"
+            ]
+        }
+    }
+}
