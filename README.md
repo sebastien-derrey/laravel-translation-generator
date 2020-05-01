@@ -4,6 +4,8 @@ Very simple command which generate missing keys in translation files.
 Parse blade, and laravel files. 
 Compatible with laravel 6.x and 7.x.
 
+*Note*: `grep` command must be available. It is used to search translations in files.
+
 ## Installation
 
 ```
